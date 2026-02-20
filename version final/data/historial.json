@@ -1,0 +1,40 @@
+[
+    {
+        "id": "q_6997a3f6253224.74064279",
+        "created_at": "2026-02-20T00:59:50+01:00",
+        "intent": "ahorro",
+        "question": "Soy deportista profesional y quiero ahorrar 14000€ en 24 meses, cuánto debo apartar al mes?",
+        "form": {
+            "ingresos": "6000",
+            "g_alquiler": "2000",
+            "g_luz": "30",
+            "g_agua": "23",
+            "g_internet": "40",
+            "g_comida": "200",
+            "g_transporte": "0",
+            "g_otros": "0",
+            "meta": "Ahorrar 14000",
+            "plazoMeses": "24"
+        },
+        "markdown": "**Resumen:** Para tu objetivo necesitas ahorrar 583,33€ al mes. Con tus datos, te sobran 3123,67€ al mes.\n\n**Tips**\n- Establece un presupuesto mensual basado en tus ingresos y gastos fijos.\n- Asegúrate de pagar primero los gastos fijos y necesarios antes de cualquier gasto discretional.\n- Considera establecer una cuenta o sobres específicos para tu ahorro, de forma que puedas controlar tus ingresos y gastos en ellos.\n- Establece un límite diario o semanal para los gastos discretionales y mantente consciente de cómo estás gastando tu dinero.\n- Considera reducir o eliminar algunos de tus gastos discretionales, como comidas en restaurantes o compras no esenciales, para aumentar tu ahorro mensual.\n\n**Cálculos**\n- Calculo: Total_gastos_fijos_EUR = 2293€\n- Calculo: Dinero_disponible_EUR = 6000€ - 2293€ = 3707€\n- Calculo: Ahorro_mensual_EUR = 14000€ \/ 24 = 583,33€\n- Calculo: Diferencia_EUR = 3707€ - 583,33€ = 3123,67€\n\nRESULTADO: Ahorro_mensual_EUR=583,33€"
+    },
+    {
+        "id": "h_6997a9a2106625.05455729",
+        "ts": "2026-02-20T01:24:02+01:00",
+        "prompt": "Quiero pagar algo de 4000€ en 24 meses, cuánto es al mes?",
+        "ingresos": "1000",
+        "gastos": {
+            "alquiler": "600",
+            "luz": "30",
+            "agua": "0",
+            "internet": "0",
+            "comida": "100",
+            "transporte": "0",
+            "otros": "0"
+        },
+        "meta": "Pagar 4000 euros",
+        "plazoMeses": "24",
+        "intent": "cuota",
+        "elapsed_sec": 100.66791892051697
+    }
+]
